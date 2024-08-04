@@ -25,6 +25,10 @@ func (h *Handler) RegisterRoutes(router *mux.Router) {
 }
 
 func (h *Handler) handleLogin(w http.ResponseWriter, r *http.Request) {
+	// var payload = types.LoginUserPayload
+
+	// if err := utils.ParseJSON(r, &payload); err != nil {
+	// }
 }
 
 func (h *Handler) handleRegister(w http.ResponseWriter, r *http.Request) {
